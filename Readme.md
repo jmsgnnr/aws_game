@@ -10,14 +10,15 @@
 ##### A code editor - We recommend Visual Studio Code</li>
 ##### A general understanding of linux commands for navigating your preferred terminal
 
-```json
-// Terminal Commands:
 
-1.mkdir aws
-2.cd aws
-2.Git Clone https://github.com/jmsgnnr/aws_game.git
-3.code . 
-4.python game_test.py
+
+```bash
+#   Terminal Cmnds
+1.mkdir aws # Creates a folder named aws
+2.cd aws # Opens the folder you just created
+2.git Clone https://github.com/jmsgnnr/aws_game.git #Clones this repo into your new folder
+3.code . #Opens the files in your new repo
+4.python game_test.py #Tell python to run your code
 5.follow the on screen instructions
 6.Have fun!!!!
 ``` 
