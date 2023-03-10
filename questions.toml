@@ -1,0 +1,48 @@
+# questions.toml
+
+
+[aws]
+label = "AWS"
+
+[[aws.questions]]
+question = "Which AWS service reduces network latency?"
+answers = ["Amazon CloudFront"]
+alternatives = ["AWS Transit Gateway  ", "AWS Direct Connect", "Elastic Load Balancing"]
+explanation = """
+CloudFront offers a cache to improve latency and lower the load on your origin servers. Caching static content gives you the performance and scale that you need to give viewers a fast and reliable experience when visiting your website.
+"""
+
+[[aws.questions]]
+question = "What kind of database is AWS DynamoDB?"
+answers = ["NoSQL"]
+alternatives = ["Relational database ", "MongoDB", "Document database"]
+hint = "KEY VALUES."
+explanation = """
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools.
+"""
+
+[[aws.questions]]
+question = "What are Edge Locations??"
+answers = ["Data centers that deliver data fast to the users"]
+alternatives = ["Physical hard drives", "Data centers that store petabytes of data", "AWS Regions"]
+explanation = """
+AWS edge locations provide an additional layer of network infrastructure that provides these benefits to any web application that uses Amazon CloudFront, Global Accelerator and Amazon Route 53. With these services, you can comprehensively protect on the edge your applications running from AWS Regions.
+"""
+
+[[aws.questions]]
+question = "Which service sends and receives messages between application components?"
+answers = ["AWS Simple Queue Service (AWS SQS)"]
+alternatives = ["AWS Lambda", "AWS Snowmbile", "AWS CloudTrail"]
+hint = "its quite simple"
+explanation = """
+Amazon SQS is the AWS service that allows application components to communicate in the cloud. You will use the Amazon SQS console to create and configure a message queue, send a message, receive and delete that message, and then delete the queue.
+"""
+
+[[aws.questions]]
+question = "What is the purpose of AWS Organizations service?"
+answers = ["AWS Organizations helps you manage multiple AWS Accounts"]
+alternatives = ["AWS Organizations optimizes your system performance", "AWS Organizations organizes your services and makes service usage reports", "AWS Organizations groups your applications and manages them"]
+hint = "What exactly is an AWS account?"
+explanation = """
+IAM provides granular control over users and roles in individual accounts. AWS Organizations expands that control to the account level by giving you control over what users and roles in an account or a group of accounts can do.
+"""
