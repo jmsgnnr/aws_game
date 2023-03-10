@@ -11,10 +11,13 @@
 ##### A general understanding of linux commands for navigating your preferred terminal
 
 ```json
-1.Git Clone https://github.com/jmsgnnr/aws_game.git from your terminal
-2.Open in your code editor to familiarize yourself with the components
-3.open the aws_game folder in your terminal
-4.python game_test.py from your CLI
+// Terminal Commands:
+
+1.mkdir aws
+2.cd aws
+2.Git Clone https://github.com/jmsgnnr/aws_game.git
+3.code . 
+4.python game_test.py
 5.follow the on screen instructions
 6.Have fun!!!!
 ``` 
