@@ -1,12 +1,12 @@
 
-## AWS CLOUD PRACTITIONER I QUIZ V1
+## AWS CLOUD PRACTITIONER I QUIZ
 
-### An Interactive quiz written in python
+### An Interactive quiz written in python :snake:
 
 ```py
 # Thanks for visiting our repo. 
 # If you stumbled upon this readme, 
-# we're assuming you're interested in learning more about AWS. 
+# we assume you're interested in learning more about AWS. 
 # Look No further. 
 # This quiz is for newbies looking to step into a new realm. 
 # This quiz is for experienced devs looking to learn the cloud.
@@ -27,16 +27,17 @@
 6.Have fun!!!!
 ```
 
-#### Just getting started?
-#### Check out these docs
+#### Check out these docs :paperclip:
 
-- Python
+
+
+- Python :snake:
   - [Download](https://www.python.org/downloads/)
   - [Tutorial](https://docs.python.org/3/tutorial/)
-- command line basics
+- command line basics :computer:
   - [terminal-commands](https://realpython.com/terminal-commands/)
   - [basic-git-commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
   - [linux-for-beginners](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
-- code editor (We recommend visual studio code)
+- code editor (We recommend visual studio code) :pager:
   - [Visual Studio Code](https://code.visualstudio.com/download)
-  - [python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+  - [vsc-python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
