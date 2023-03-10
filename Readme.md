@@ -1,16 +1,20 @@
 
+## AWS CLOUD PRACTITIONER I QUIZ V1
 
+### An Interactive quiz written in python
 
-# AWS CLOUD PRACTITIONER I QUIZ V1 
-## An interactive quiz written in python. </h2>
-### Contains 40 Questions </h3>
-#### This quiz requires you to have the following:</h4>
-##### Python Installed</li>
-##### A beginner level understanding of git commands 
-##### A code editor - We recommend Visual Studio Code</li>
-##### A general understanding of linux commands for navigating your preferred terminal
-
-
+```py
+# Thanks for visiting our repo. 
+# If you stumbled upon this readme, 
+# we're assuming you're interested in learning more about AWS. 
+# Look No further. 
+# This quiz is for newbies looking to step into a new realm. 
+# This quiz is for experienced devs looking to learn the cloud.
+# really, this quiz is for anyone
+# We just want you to have fun while you learn
+# We will try to lay out the next steps as best as possible. 
+# Best of luck with your studies!!!!!
+```
 
 ```bash
 #   Terminal Cmnds
@@ -21,6 +25,18 @@
 4.python game_test.py #Tell python to run your code
 5.follow the on screen instructions
 6.Have fun!!!!
-``` 
+```
 
+#### Just getting started?
+#### Check out these docs
 
+- Python
+  - [Download](https://www.python.org/downloads/)
+  - [Tutorial](https://docs.python.org/3/tutorial/)
+- command line basics
+  - [terminal-commands](https://realpython.com/terminal-commands/)
+  - [basic-git-commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+  - [linux-for-beginners](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
+- code editor (We recommend visual studio code)
+  - [Visual Studio Code](https://code.visualstudio.com/download)
+  - [python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
