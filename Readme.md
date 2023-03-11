@@ -33,6 +33,7 @@ python game_test.py
 ```
 
 ![Image](image.jpg)
+
 *editor note: your terminal **SHOULD** look something like this ^*
 
 #### :bulb:Confused? Check out the docs:bulb:
