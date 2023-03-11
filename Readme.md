@@ -36,7 +36,7 @@ python game_test.py
 
 *editor note: your terminal **SHOULD** look something like this ^*
 
-#### :bulb:Confused? Check out the docs:bulb:
+### :bulb:Confused? Check out the docs:bulb:
 
 - python :snake:
   - [Download](https://www.python.org/downloads/)
