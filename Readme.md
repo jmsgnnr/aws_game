@@ -18,7 +18,7 @@ Best of luck with your studies!!!!!
 
 ### 1. Open the quiz
 
-```bash
+```sh
 mkdir aws
 cd aws
 git clone https://github.com/jmsgnnr/aws_game.git
@@ -28,7 +28,7 @@ code .
 
 ### 2.  Run the quiz via your terminal
 
-```bash
+```sh
 python game_test.py
 ```
 
