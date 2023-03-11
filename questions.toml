@@ -42,7 +42,34 @@ Amazon SQS is the AWS service that allows application components to communicate 
 question = "What is the purpose of AWS Organizations service?"
 answers = ["AWS Organizations helps you manage multiple AWS Accounts"]
 alternatives = ["AWS Organizations optimizes your system performance", "AWS Organizations organizes your services and makes service usage reports", "AWS Organizations groups your applications and manages them"]
-hint = "What exactly is an AWS account?"
+hint = "What are accounts part of?"
 explanation = """
 IAM provides granular control over users and roles in individual accounts. AWS Organizations expands that control to the account level by giving you control over what users and roles in an account or a group of accounts can do.
+"""
+
+[[aws.questions]]
+question = "What service manages web infastructure??"
+answers = ["AWS Elastic Beanstalk"]
+alternatives = ["Redshift", "s3","AWS Glue"]
+hint = "Bends to your every need"
+explanation = """
+Elastic Beanstalk is a service for deploying and scaling web applications and services. Upload your code and Elastic Beanstalk automatically handles the deployment—from capacity provisioning, load balancing, and auto scaling to application health monitoring.
+"""
+
+[[aws.questions]]
+question = "What is AWS EC2?"
+answers = ["a virtual server in the AWS Cloud"]
+alternatives = ["AWS EC2 is a serverless compute service", "AWS EC2 is a data center", "AWS EC2 is a resource monitoring service"]
+hint = "Elastic Compute Cloud"
+explanation = """
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2's simple web service interface allows you to obtain and configure capacity with minimal friction.
+"""
+
+[[aws.questions]]
+question = "Which Amazon S3 storage class has the lowest cost?"
+answers = ["S3 Glacier Deep Archive"]
+alternatives = ["S3 Inteligent-Tiering", "S3 Standard", "S3 Enterprise"]
+hint = "Prices below zero"
+explanation = """
+S3 Glacier Deep Archive is Amazon S3's lowest-cost storage class and supports long-term retention and digital preservation for data that may be accessed once or twice in a year. It's around $. 005 per GB per month, or $5/TB per month to store your data.
 """
