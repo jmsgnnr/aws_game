@@ -32,8 +32,9 @@ code .
 python game_test.py
 ```
 
-![test image](test_img.jpg)
-###### note: your code should look something like this ^^^^
+![Image](test_img.jpg)
+
+##### note: your code should look something like this ^^^^
 
 #### Confused? Check out these docs :paperclip:
 
