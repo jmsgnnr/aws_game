@@ -4,34 +4,40 @@
 ### An Interactive quiz written in python :snake:
 
 ```py
-# Thanks for visiting our repo. 
-# If you stumbled upon this readme, 
-# we assume you're interested in learning more about AWS. 
-# Look No further. 
-# This quiz is for newbies looking to step into a new realm. 
-# This quiz is for experienced devs looking to learn the cloud.
-# really, this quiz is for anyone
-# We just want you to have fun while you learn
-# We will try to lay out the next steps as best as possible. 
-# Best of luck with your studies!!!!!
+Thanks for visiting our repo. 
+If you stumbled upon this readme, 
+we assume you're interested in learning more about AWS. 
+Look No further. 
+This quiz is for newbies looking to step into a new realm. 
+This quiz is for experienced devs looking to learn the cloud.
+really, this quiz is for anyone
+We just want you to have fun while you learn
+We will try to lay out the next steps as best as possible. 
+Best of luck with your studies!!!!!
 ```
+
+### 1. Open the quiz
 
 ```bash
-#   Terminal Cmnds
-1.mkdir aws # Creates a folder named aws
-2.cd aws # Opens the folder you just created
-2.git Clone https://github.com/jmsgnnr/aws_game.git #Clones this repo into your new folder
-3.code . #Opens the files in your new repo
-4.python game_test.py #Tell python to run your code
-5.follow the on screen instructions
-6.Have fun!!!!
+mkdir aws
+cd aws
+git clone https://github.com/jmsgnnr/aws_game.git
+cd aws_game
+code .
 ```
 
-#### Check out these docs :paperclip:
+### 2.  Run the quiz via your terminal
 
+```bash
+python game_test.py
+```
 
+![](test_img.jpg)
+###### note: your code should look something like this ^^^^
 
-- Python :snake:
+#### Confused? Check out these docs :paperclip:
+
+- python :snake:
   - [Download](https://www.python.org/downloads/)
   - [Tutorial](https://docs.python.org/3/tutorial/)
 - command line basics :computer:
@@ -41,3 +47,6 @@
 - code editor (We recommend visual studio code) :pager:
   - [Visual Studio Code](https://code.visualstudio.com/download)
   - [vsc-python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+- source code :information_source:
+  - [learn-how-this-repo-was-built](https://realpython.com/python-quiz-application/)
+  - [w3-schools-cloud-essentials](https://www.w3schools.com/quiztest/quiztest.php?qtest=AWSCE)
