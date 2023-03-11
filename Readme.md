@@ -33,9 +33,9 @@ python game_test.py
 ```
 
 ![Image](image.jpg)
-*note: your code should look something like this, otherwise you may wanna check out the tutorials below ^^^^*
+*editor note: your terminal **SHOULD** look something like this ^*
 
-#### :bulb: Check out the docs :bulb:
+#### :bulb:Confused? Check out the docs:bulb:
 
 - python :snake:
   - [Download](https://www.python.org/downloads/)
