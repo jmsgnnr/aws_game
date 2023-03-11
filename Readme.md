@@ -1,22 +1,22 @@
 
-## AWS CLOUD PRACTITIONER I QUIZ
+## AWS :cloud: PRACTITIONER I QUIZ
 
-### An Interactive quiz written in python :snake:
+### An Interactive quiz w/ our friend python :snake:
 
 ```py
 Thanks for visiting our repo. 
 If you stumbled upon this readme, 
 we assume you're interested in learning more about AWS. 
 Look No further. 
-This quiz is for newbies looking to step into a new realm. 
-This quiz is for experienced devs looking to learn the cloud.
-really, this quiz is for anyone
-We just want you to have fun while you learn
-We will try to lay out the next steps as best as possible. 
+This quiz is for newbies looking to step into a new realm
+as well as more experienced devs looking to learn the cloud.
+really, this quiz is for everyone
+We just want you to have fun while you learn.
+We will try to lay out the next steps in the best way possible. 
 Best of luck with your studies!!!!!
 ```
 
-### 1. Open the quiz
+### 1. Open the quiz :book:
 
 ```sh
 mkdir aws
@@ -26,17 +26,16 @@ cd aws_game
 code .
 ```
 
-### 2.  Run the quiz via your terminal
+### 2.  Run the files :runner:
 
 ```sh
 python game_test.py
 ```
 
 ![Image](image.jpg)
+*note: your code should look something like this, otherwise you may wanna check out the tutorials below ^^^^*
 
-##### note: your code should look something like this ^^^^
-
-#### Confused? Check out these docs :paperclip:
+#### :bulb: Check out the docs :bulb:
 
 - python :snake:
   - [Download](https://www.python.org/downloads/)
