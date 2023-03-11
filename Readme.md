@@ -32,7 +32,7 @@ code .
 python game_test.py
 ```
 
-![Image](test_img.jpg)
+![Image](image.jpg)
 
 ##### note: your code should look something like this ^^^^
 
