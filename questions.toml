@@ -123,3 +123,24 @@ explanation = """
 Amazon Lex is an AWS service for building conversational interfaces for applications using voice and text. With Amazon Lex, the same conversational engine that powers Amazon Alexa is now available to any developer, enabling you to build sophisticated, natural language chatbots into your new and existing applications.
 """
 
+
+[[aws.questions]]
+question = "Which AWS service do you need to use to get complete history of user activity?"
+answers = ["AWS Identity and Access Management (IAM)"]
+alternatives = ["AWS CloudTrail", "AWS CloudWatch", "AWS TrustedAdvisor"]
+explanation = """
+CloudTrail enables auditing, security monitoring, and operational troubleshooting by tracking user activity and API usage. CloudTrail logs, continuously monitors, and retains account activity related to actions across your AWS infrastructure, giving you control over storage, analysis, and remediation actions.
+"""
+
+[[aws.questions]]
+question = "What is AWS DynamoDB Accelerator capable of?"
+answers = ["Improves read times of non-relational data"]
+alternatives = ["Improves read times of relational data", "Improves write times of documents", "Improves visualisation times of graphs"]
+explanation = """
+DynamoDB Accelerator (DAX) is an in-memory cache for NoSQL DynamoDB databases that improve the single-digit millisecond performance of DynamoDB to microseconds even with heavy workloads.
+"""
+
+
+
+
+
