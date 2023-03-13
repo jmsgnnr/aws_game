@@ -74,3 +74,20 @@ explanation = """
 S3 Glacier Deep Archive is Amazon S3's lowest-cost storage class and supports long-term retention and digital preservation for data that may be accessed once or twice in a year. It's around $. 005 per GB per month, or $5/TB per month to store your data.
 """
 
+[[aws.questions]]
+question = "What is AWS EFS?"
+answers = ["AWS Elastic File System"]
+alternatives = ["AWS Enterprise File System", "AWS Efficient File System", "AWS Efficient File Sort"]
+hint = "Bend your mind"
+explanation = """
+Amazon EFS provides shared file storage for use with compute instances in the AWS Cloud and on-premises servers. Applications that require shared file access can use Amazon EFS for reliable file storage delivering high aggregate throughput to thousands of clients simultaneously.
+"""
+
+[[aws.questions]]
+question = "Which of the following is AWS Migration Strategy?"
+answers = ["Replatforming "]
+alternatives = ["Auditability", "Governance"]
+hint = "A migration strategy is the approach used to migrate a workload into the AWS Cloud. There are seven migration strategies for moving applications to the cloud, known as the 7 Rs:"
+explanation = """
+This strategy is also known as lift, tinker, and shift or lift and reshape. Using this migration strategy, you move the application to the cloud, and you introduce some level of optimization in order to operate the application efficiently, to reduce costs, or to take advantage of cloud capabilities. For example, you might replatform a Microsoft SQL Server database to Amazon RDS for SQL Server.
+"""
