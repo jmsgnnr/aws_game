@@ -29,7 +29,7 @@ code .
 ### 2.  Run the files :runner:
 
 ```sh
-python game_test.py
+python game.py
 ```
 
 ![Image](image.jpg)
