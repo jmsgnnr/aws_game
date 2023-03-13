@@ -91,3 +91,12 @@ hint = "A migration strategy is the approach used to migrate a workload into the
 explanation = """
 This strategy is also known as lift, tinker, and shift or lift and reshape. Using this migration strategy, you move the application to the cloud, and you introduce some level of optimization in order to operate the application efficiently, to reduce costs, or to take advantage of cloud capabilities. For example, you might replatform a Microsoft SQL Server database to Amazon RDS for SQL Server.
 """
+
+[[aws.questions]]
+question = "Which perspective of the AWS Cloud Adoption Framework focuses on minimizing the business risks?"
+answers = ["Governance Perspective"]
+alternatives = ["Operations Perspective", "Business Perspective", "People Perspective","Data Perspective"]
+explanation = """
+Governance is the ability to implement executive board policies that your AWS Cloud environment must adhere to. This policy includes the rules for your environment, defines risks, and informs alignment of internal policies.
+"""
+
