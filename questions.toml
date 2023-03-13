@@ -140,7 +140,18 @@ explanation = """
 DynamoDB Accelerator (DAX) is an in-memory cache for NoSQL DynamoDB databases that improve the single-digit millisecond performance of DynamoDB to microseconds even with heavy workloads.
 """
 
+[[aws.questions]]
+question = "What does AWS Marketplace allow you to do?"
+answers = ["AWS Marketplace lets you list and sell software"]
+alternatives = ["AWS Marketplace lets you list all AWS Cloud Services","AWS Marketplace lets you see the cost analysis of all AWS Cloud Services"]
+explanation = """
+The AWS Marketplace enables qualified partners to market and sell their software to AWS Customers. AWS Marketplace is an online software store that helps customers find, buy, and immediately start using the software and services that run on AWS.
+"""
 
-
-
-
+[[aws.questions]]
+question = "Which service helps you reduce development time and complexity of Machine Learning (ML)?"
+answers = ["AWS SageMaker"]
+alternatives = ["AWS Redshift","AWS Elastic Beanstalk","AWS Lex"]
+explanation = """
+Amazon SageMaker is a fully managed machine learning service. With SageMaker, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment.
+"""
