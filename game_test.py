@@ -1,5 +1,3 @@
-# quiz.py
-
 import pathlib
 import random
 from string import ascii_lowercase
@@ -8,7 +6,7 @@ try:
 except ModuleNotFoundError:
     import tomli as tomllib
 
-NUM_QUESTIONS_PER_QUIZ = 8
+NUM_QUESTIONS_PER_QUIZ = 20
 QUESTIONS_PATH = pathlib.Path(__file__).parent / "questions.toml"
 
 def run_quiz():
@@ -72,6 +70,10 @@ def get_answers(question, alternatives, num_choices=1, hint=None):
         plural_s = "" if num_choices == 1 else f"s (choose {num_choices})"
         answer = input(f"\nChoice{plural_s}? ")
         answers = set(answer.replace(",", " ").split())
+
+        # Handle exit
+        if "exit" in answers:
+            exit(0)
 
         # Handle hints
         if hint and "?" in answers:
