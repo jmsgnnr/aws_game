@@ -126,8 +126,8 @@ Amazon Lex is an AWS service for building conversational interfaces for applicat
 
 [[aws.questions]]
 question = "Which AWS service do you need to use to get complete history of user activity?"
-answers = ["AWS Identity and Access Management (IAM)"]
-alternatives = ["AWS CloudTrail", "AWS CloudWatch", "AWS TrustedAdvisor"]
+answers = ["AWS CloudTrail"]
+alternatives = ["AWS CloudWatch", "AWS TrustedAdvisor", "Datadog"]
 explanation = """
 CloudTrail enables auditing, security monitoring, and operational troubleshooting by tracking user activity and API usage. CloudTrail logs, continuously monitors, and retains account activity related to actions across your AWS infrastructure, giving you control over storage, analysis, and remediation actions.
 """
