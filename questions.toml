@@ -2,7 +2,7 @@
 
 
 [aws]
-label = "AWS (easy)"
+label = "AWS Cloud Essentials"
 
 [[aws.questions]]
 question = "Which AWS service reduces network latency?"
@@ -69,7 +69,6 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure,
 question = "Which Amazon S3 storage class has the lowest cost?"
 answers = ["S3 Glacier Deep Archive"]
 alternatives = ["S3 Inteligent-Tiering", "S3 Standard", "S3 Enterprise"]
-hint = "Prices below zero"
 explanation = """
 S3 Glacier Deep Archive is Amazon S3's lowest-cost storage class and supports long-term retention and digital preservation for data that may be accessed once or twice in a year. It's around $. 005 per GB per month, or $5/TB per month to store your data.
 """
@@ -107,3 +106,20 @@ alternatives = ["Operational excellence", "Performance efficiency", "Data infast
 explanation = """
 Built around six pillars—operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability—AWS Well-Architected provides a consistent approach for customers and partners to evaluate architectures and implement scalable designs
 """
+
+[[aws.questions]]
+question = "Which AWS service helps you create users and provide them security access?"
+answers = ["AWS Identity and Access Management (IAM)"]
+alternatives = ["AWS Direct Connect", "AWS CloudFormation", "AWS Redshift"]
+explanation = """
+AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources.
+"""
+
+[[aws.questions]]
+question = "Which AWS service helps you build text chatbots?"
+answers = ["Amazon Lex"]
+alternatives = ["Amazon Polly", "Amazon Comprehend", "Amazon Transcribe"]
+explanation = """
+Amazon Lex is an AWS service for building conversational interfaces for applications using voice and text. With Amazon Lex, the same conversational engine that powers Amazon Alexa is now available to any developer, enabling you to build sophisticated, natural language chatbots into your new and existing applications.
+"""
+
