@@ -18,8 +18,9 @@ def run_quiz():
     for num, question in enumerate(questions, start=1):
         print(f"\nQuestion {num}:")
         num_correct += ask_question(question)
+        percent = round(int(num_correct)/int(num), 2)
 
-    print(f"\nYou got {num_correct} correct out of {num} questions")
+    print(f"\nYou answered {num_correct} out of {num} questions correctly! ({percent}%)" )
 
 def prepare_questions(path, num_questions):
     topic_info = tomllib.loads(path.read_text())
@@ -27,7 +28,7 @@ def prepare_questions(path, num_questions):
         topic["label"]: topic["questions"] for topic in topic_info.values()
     }
     topic_label = get_answers(
-        question="Which topic do you want to be quizzed about",
+        question="What are we studying today?",
         alternatives=sorted(topics),
     )[0]
 
