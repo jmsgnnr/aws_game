@@ -156,14 +156,13 @@ explanation = """
 Amazon SageMaker is a fully managed machine learning service. With SageMaker, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment.
 """
 
-[[Which database is ideal for large organizations and enterprises?]]
-question = "Which service helps you reduce development time and complexity of Machine Learning (ML)?"
+
+[[aws.questions]]
+question = "Which database is ideal for large organizations and enterprises?"
 answers = ["Amazon Aurora"]
 alternatives = ["MySQL","PostgreSQL","MongoDB"]
 
 [[aws.questions]]
 question = "Which sectence best describes AWS CloudWatch?"
 answers = ["CloudWatch is a monitoring service that monitors your resources, and configures automatic alarms."]
-alternatives = ["CloudWatch is a service tha logs your AWS environment Actions. It is used to create events that describe how your application is being used.","CloudWatch monitors your account and recommends you cost optimization and performance improvement actions."]
-
-
+alternatives = ["CloudWatch is a service that logs your AWS environment Actions and creates events that describe your application.","CloudWatch monitors your account and recommends you performance improvement actions."]
