@@ -153,7 +153,7 @@ question = "Which service helps you reduce development time and complexity of Ma
 answers = ["AWS SageMaker"]
 alternatives = ["AWS Redshift","AWS Elastic Beanstalk","AWS Lex"]
 explanation = """
-Amazon SageMaker is a fully managed machine learning service. With SageMaker, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment.
+Amazon SageMaker is a fully managed machine learning service. With SageMakt er, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment.
 """
 
 
@@ -166,3 +166,63 @@ alternatives = ["MySQL","PostgreSQL","MongoDB"]
 question = "Which sectence best describes AWS CloudWatch?"
 answers = ["CloudWatch is a monitoring service that monitors your resources, and configures automatic alarms."]
 alternatives = ["CloudWatch is a service that logs your AWS environment Actions and creates events that describe your application.","CloudWatch monitors your account and recommends you performance improvement actions."]
+
+[[aws.questions]]
+question = "Which AWS database service proviced historical data of your application changes?"
+answers = ["AWS Quantum Ledger Database"]
+alternatives = ["AWS ElastiCache","AWS Neptune","AWS DocumentDB"]
+
+
+[[aws.questions]]
+question = "How is called a service that lets you run code without needing to think about servers??"
+answers = ["AWS Lambda"]
+alternatives = ["AWS EC2 Auto Scaling","AWS Serverless","AWS ECS"]
+explanation = """
+Amazon SageMaker is a fully managed machine learning service. With SageMakt er, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment.
+"""
+
+[[aws.questions]]
+question = "What does AWS Shield protect from?"
+answers = ["Dos and DDoS attacks"]
+alternatives = ["Infrastructure threats","Software vulnerabilities"]
+
+[[aws.questions]]
+question = "Which AWS service manages encryption and decryption of data?"
+answers = ["AWS Key Management Service (AWS KMS)"]
+alternatives = ["AWS Inspector","AWS WAF","AWS GuardDuty"]
+explanation = """
+AWS Key Management Service (KMS) gives you centralized control over the cryptographic keys used to protect your data. The service is integrated with other AWS services making it easier to encrypt data you store in these services and control access to the keys that decrypt it.
+"""
+
+[[aws.questions]]
+question = "AWS Elastic Block Store Snapshot is:"
+answers = ["Incremental data backup"]
+alternatives = ["Differential data backup","Full data backup"]
+explanation = """
+Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. This minimizes the time required to create the snapshot and saves on storage costs by not duplicating data.
+"""
+
+
+[[aws.questions]]
+question = "Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?"
+answers = ["AWS Snowball"]  
+alternatives = ["AWS Redshift","AWS S3"]
+explanation = """
+Create a data import job using the AWS Console. Afterwards, AWS will prepare and ship a Snowball appliance to the address you specified. Transfer your data onto the Snowball using the client. Then ship the Snowball back to AWS.
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
