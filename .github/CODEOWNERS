@@ -1,0 +1,4 @@
+# Every proposed change requires the repository owner's review.
+* @jmsgnnr
+/.github/CODEOWNERS @jmsgnnr
+/.github/pull_request_template.md @jmsgnnr

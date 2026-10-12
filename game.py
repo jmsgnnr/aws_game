@@ -18,15 +18,25 @@ def run_quiz():
     for num, question in enumerate(questions, start=1):
         print(f"\nQuestion {num}:")
         num_correct += ask_question(question)
-        percent = round(int(num_correct)/int(num), 2)
 
-    print(f"\nYou answered {num_correct} out of {num} questions correctly! ({percent}%)" )
+    total = len(questions)
+    percent = score_percentage(num_correct, total)
+    print(f"\nYou answered {num_correct} out of {total} questions correctly! ({percent:.0f}%)")
+
+
+def score_percentage(num_correct, total):
+    """Return the score as a percentage, including for an empty quiz."""
+    if total == 0:
+        return 0.0
+    return (num_correct / total) * 100
 
 def prepare_questions(path, num_questions):
-    topic_info = tomllib.loads(path.read_text())
+    topic_info = tomllib.loads(path.read_text(encoding="utf-8"))
     topics = {
         topic["label"]: topic["questions"] for topic in topic_info.values()
     }
+    if not topics:
+        raise ValueError("Question bank has no available topics.")
     topic_label = get_answers(
         question="What are we studying today?",
         alternatives=sorted(topics),

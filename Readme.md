@@ -1,4 +1,23 @@
 
+# AWS Practitioner Quiz (legacy terminal edition)
+
+Original project and maintenance by **[@jmsgnnr](https://github.com/jmsgnnr)**.
+
+This is an early Python learning project containing **26** Cloud Practitioner-style questions in one TOML bank. It remains a dependency-free terminal quiz on Python 3.11+; it does not connect to AWS, request credentials or incur AWS charges. For the newer browser-based study experience with Cloud Practitioner, Security and Advanced Networking tracks, see [CloudOps Lab](https://jmsgnnr.github.io/cloudops-lab/).
+
+## Start and test
+
+```sh
+python game.py
+python -m unittest discover -s tests -v
+```
+
+Choose the topic with its letter, then answer using letter labels. For multiple answers, separate letters with commas. Use `?` for a hint if shown, or `exit` to quit. Scoring is a percentage, not a fraction.
+
+This repository is a **legacy study artifact**. Its 2023 question bank has not received a current AWS exam-objective or factual accuracy review and should not be treated as official certification material. No cloud API key is needed. The quiz implementation was originally informed by the [Real Python quiz application tutorial](https://realpython.com/python-quiz-application/), linked in the original notes below. Third-party tutorial rights remain with their authors.
+
+---
+
 ## AWS :cloud: PRACTITIONER I QUIZ
 
 ### An Interactive quiz w/ our friend python :snake:
